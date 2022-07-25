@@ -46,7 +46,6 @@ ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64/
 RUN export JAVA_HOME
 # RUN java -XshowSettings:properties -version 2>&1 > /dev/null | grep 'java.home'
 # copy the ADABAS gateway into JAVA_HOME dir
-COPY external_libs/connxjdbc.jar /usr/lib/jvm/java-11-openjdk-amd64/
 
 
 # install the python packages
